@@ -43,6 +43,12 @@ for element in arra2:
     string2 += element
 print(string2)
 
+#way2
+
+for element in user_dna_sequence:
+    if element[1]>18 and element[1]<25:
+        print((element[2])[::-1])
+
 
 # Assignment : 06
 
@@ -75,6 +81,13 @@ for i in (user_dna_sequence[3][2]):
 if arr4[len(arr4) - 1]== 'A':
     print(user_dna_sequence[3][0])
 
+
+#way2
+
+
+for element in (user_dna_sequence):
+    if (element[2])[-1] == 'A':
+        print(element[0])
 
 
     
